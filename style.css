@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  background: #fff8f3;
+  background-repeat: no-repeat;
+  background-image: url(./images/header_bg.png), url(./images/developer.png);
+  background-position: bottom right, left;
+  margin-bottom: 200px;
+}
+main {
+  margin: 200px 200px;
+}
+/* ------------------------------------------------------ */
+/* navBar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+nav h1 {
+  font-size: 45px;
+  font-weight: 800;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  color: #474747;
+  list-style: none;
+  margin-right: 51px;
+  font-size: 20px;
+}
+button {
+  border: none;
+  color: white;
+  padding: 19px 36px;
+  font-size: 20px;
+  border-radius: 5px;
+  background: #fd6e0a;
+}
+/* Title */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+}
+.title h2 {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+.title h1 {
+  font-size: 85px;
+  font-weight: 800;
+}
+.title p {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.btn2 {
+  display: inline-block;
+  color: #fd6c0a;
+  border: 2px solid #fd6c0a;
+  border-radius: 5px;
+  font-weight: 700;
+  height: 63px;
+  padding: 0px 23px;
+}
+/* About Me */
+.aboutMe {
+  text-align: center;
+  /* margin: 0px 200px; */
+  padding: 131px 157px;
+  border-radius: 13px;
+  background-color: #fff8f3;
+}
+.heading {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.aboutMe-p {
+  width: 827px;
+  font-size: 18px;
+  color: #474747;
+  margin: 30px auto;
+}
+/* Address */
+.address {
+  display: flex;
+  width: 827px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.address p {
+  margin-bottom: 10px;
+}
+/* What I do */
+
+.course {
+  display: flex;
+  justify-content: space-between;
+}
+.course-title {
+  text-align: center;
+  margin: 70px 200px;
+}
+.course div {
+  padding: 70px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.course h3 {
+  font-size: 25px;
+  margin: 30px 0px;
+}
+.course div p {
+  width: 201px;
+  font-size: 16px;
+  color: #474747;
+  margin: 20px 0px;
+}
+/* My Resume --------------------------------------------- */
+.blogs {
+  display: flex;
+  gap: 24px;
+  margin-top: 150px;
+}
+.blog h1 {
+  font-size: 30px;
+}
+.blogs h2 {
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.blogs p {
+  color: #757575;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+.blog-btn {
+  margin-top:200px ;
+}
+.summar h2{
+  margin-top: 100px;
+}
+.summar button{
+  text-align: center;
+}
+/* resumeBtn */
+.resumeBtn{
+  margin-top: 150px;
+  text-align: center;
+}
+/* footer */
+footer{
+  background-color: #FFF8F3;
+  padding: 100px 200px;
+}
+.footerWrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.leftFooter h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.leftFooter p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #474747;
+}
+.rightFooter h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.rightFooter input{
+  border: none;
+  padding: 50px 130px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
